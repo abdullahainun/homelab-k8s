@@ -1,0 +1,16 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: dpl
+spec:
+  template:
+    spec:
+      containers:
+        - name: dpl
+          resources:
+            requests:
+              cpu: "16m"
+              memory: "64Mi"
+            limits:
+              cpu: "20m"
+              memory: "64Mi"

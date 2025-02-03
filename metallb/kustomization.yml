@@ -3,5 +3,5 @@ namespace: metallb-system
 
 resources:
   - github.com/metallb/metallb/config/native?ref=v0.14.9
-  - ext-lb-pool.yaml
-  - ext-lb-pool-l2.yaml
+  - default-pool.yaml
+  - default-pool-l2.yaml
